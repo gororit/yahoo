@@ -1,0 +1,20 @@
+ /*商品名*/
+ .item_name{
+    width:375px;/*商品名のエリアの幅を指定*/
+    line-height:120%;/*行間を空ける指定*/
+    letter-spacing:1.5px;/*文字間を空ける指定*/
+    border-left: solid 5px #d40000;/*商品名の左側に赤い線を引く*/
+    border-bottom: dotted 1px #999;/*商品名の下にグレーの点線*/
+    padding: 4px 0px 4px 5px;/*余白の調整*/
+    margin:0;
+    display: block;/*これを入れると＜ｂｒ＞を入れなくてもキャッチコピーが改行される*/
+    }
+    
+    /*商品キャッチコピー*/
+    span.catch_copy{
+    font-size:14px;
+    color:#CE0005;
+    display: block;
+    margin:0;
+    padding: 4px 0px 4px 0px;
+    }

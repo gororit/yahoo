@@ -1,0 +1,54 @@
+.logo {
+position:relative;
+top:0px;
+}
+
+
+
+.adress{
+  position:absolute;
+  top: 140px;
+  left: 85%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+}
+
+.ship{
+  position:absolute;
+  top: 40%;
+  left: 20%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+}
+
+
+.center{
+  position:absolute;
+  top: 55%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+  z-index:100
+}
+
+
+.cart{
+  position:absolute;
+  top: 29px;
+  left: 85%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+}
+

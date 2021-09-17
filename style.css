@@ -1,0 +1,131 @@
+body {
+    font-size: 16px;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: url("https://image.rakuten.co.jp/bird44/cabinet/back2.jpg") top center no-repeat !important;
+    background-attachment: fixed !important;
+}
+header {
+    height: 150px;
+}
+
+
+main {
+    flex: 1;
+}
+
+aside {
+    width: 200px;
+}
+footer {
+    height: 300px;
+}
+
+a:hover {
+    filter:alpha(opacity=75);
+    -moz-opacity:0.75;
+    opacity:0.75;
+    }
+
+.flex{
+    display:flex;
+    justify-content: center;
+    width:100%;
+    margin:40px 0 0;
+}
+
+main{
+    margin:50px 40px 0;
+    max-width:750px;
+}
+
+center iframe{
+width:100%;
+border:none;
+}
+
+.flex center img{
+    width:100%;
+    height:auto;
+    max-width:750px;
+}
+
+.right-nav{
+    margin-top:50px;
+    width:100%;
+    max-width:200px;
+}
+
+.slider{
+    max-width:750px;
+    width:100%;
+}
+.slider img{
+    width:100%;
+}
+
+form{
+    text-align: center;
+    margin-bottom:30px;
+}
+
+table.calbase_rakuten {
+    background-color: #FFFFFF;
+    border: 1px solid #CECECE;
+    width: 161px;
+    border-collapse: collapse;
+    padding: 0px 0px 10px 0px;
+    font-size:12px;
+}
+
+table.calbase_rakuten th {
+    text-align: center;
+}
+
+th.caltitle_rakuten {
+    padding: 10px 0px 0px 0px;
+}
+
+tr.weektitle_rakuten td {
+    background-color: #EEEEEE;
+}
+
+td.event1day_rakuten {
+    background-color: #FFC6C6 !important;
+}
+
+font.event1day_rakuten {
+    color: #FFC6C6;
+}
+
+font.event2day_rakuten {
+    color: #B5DAFF;
+}
+
+font.event3day_rakuten {
+    color: #FEDE93;
+}
+
+span.lossleader_price1 {
+    color: #000000;
+    font-size: 80%;
+    font-weight: bold;
+}
+
+span.lossleader_price2 {
+    color: #000000;
+    font-size: 80%;
+    font-weight: bold;
+}
+
+nav{
+    position: absolute;
+    top:220px;
+}
+
+table{
+    width:100%;
+    max-width:750px;
+}
